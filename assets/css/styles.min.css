@@ -151,3 +151,82 @@ svg {
     z-index:999;
     border-radius:0
 }
+
+/*dark mode */
+
+nav {
+    position: absolute !important;
+}
+
+.dark-mode {
+    background-color:  #000000 !important;
+}
+
+.dark-mode li a {
+    color: #fff !important;
+}
+
+.dark-mode .dropdown-toggle {
+    color: #fff !important;
+}
+
+.dark-mode .text-success {
+    color:  var(--bs-green) !important;
+}
+
+.dark-mode .text-muted {
+    --bs-text-opacity: 1;
+    color: #4e5d78 !important
+}
+
+.dark-mode h1 {
+    color: #fff !important;
+}
+
+.dark-mode h2 {
+    color: #fff !important;
+}
+
+.dark-mode h3 {
+    color: #fff !important;
+}
+.dark-mode h6 {
+    color: #fff !important;
+}
+
+.dark-mode p {
+    color: #fff !important;
+}
+
+.dark-mode .bg-success-light {
+    background-color: none !important;
+}
+
+.dark-mode .most {
+    background-color: var(--bs-green) !important;
+}
+
+.dark-mode .bg-primary-gradient {
+    background: none;
+}
+
+.dark-mode .text-dark {
+    color: #fff !important;
+}
+
+.darkmode #mainNav {
+    background-color: none !important;
+}
+
+.dark-mode-toggle {
+    background: var(--bs-green);
+    color: #fff;
+    padding: .4rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;  
+}
