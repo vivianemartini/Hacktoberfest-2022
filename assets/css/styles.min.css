@@ -190,6 +190,15 @@ nav {
 .dark-mode h3 {
     color: #fff !important;
 }
+
+.dark-mode h4 {
+    color: #fff !important;
+}
+
+.dark-mode h5 {
+    color: #fff !important;
+}
+
 .dark-mode h6 {
     color: #fff !important;
 }
@@ -214,8 +223,15 @@ nav {
     color: #fff !important;
 }
 
+.dark-mode .text-muted {
+    color: #fff !important;
+}
 .darkmode #mainNav {
     background-color: none !important;
+}
+
+.dark-mode .dark-mode-opp {
+    color: #000 !important;
 }
 
 .dark-mode-toggle {
